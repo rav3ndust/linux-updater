@@ -1,6 +1,6 @@
 # linux-updater
 A quick and simple bash script to update and upgrade your distribution with one command. 
-Please note that right now this script only works for Debian/Ubuntu based distros. I plan to add support for Arch soon. 
+Please note that right now this script only works for Debian/Ubuntu based distros. 
 
 To use it, follow these steps: 
 
