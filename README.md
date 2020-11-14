@@ -6,10 +6,10 @@ To use it, follow these steps:
 
 $git clone https://github.com/rav3ndust/linux-updater
 
-$chmod +x updater.sh
+$chmod +x install.sh
 
-$./updater.sh
+$./install.sh
 
-...and that's it. The script will automatically update and upgrade your distro without further user interaction. 
+...and that's it. The installer script will make the updater script executable and enable it to be run globally. When this is done, simply type "gnupdater" from anywhere in your terminal to automatically update and upgrade your distro without further user interaction. 
 
 If you feel like contributing, feel free!
