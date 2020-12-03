@@ -17,7 +17,7 @@ read -p "Hello! Would you like to update and upgrade your machine to the newest 
 # Create an if/then condition depending on the user's choice
 if [[ $updateAnswer = "yes" ]]; 
 then
-        notify-send -u critical "Updating..." "Your machine is being updated now. Please be patient." 
+        notify-send "Updating..." "Your machine is being updated now. Please be patient." 
         echo "Great! Your machine is being updated and upgraded now." 
         sudo apt update -y && sudo apt upgrade -y                                       # if user answers yes, issue command to update the user's system
 else [[ $updateAnswer = "no" ]];  
@@ -26,7 +26,7 @@ exit                                                                            
 fi
 
 # Let the user know when the update is finished.
-notify-send -u critical "Update Successful" "Your machine has successfully been updated!"
+notify-send "Update Successful" "Your machine has successfully been updated!"
 echo "Your machine has been updated. Enjoy!" 
 exit
 
